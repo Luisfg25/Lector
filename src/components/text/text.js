@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import './Text.css'
 import {getTraslation} from '../../services/getTraslation'
 
+
 export const Text = ({text, currentLang, traslateLang}) => {
     const [traslation, setTraslation] = useState('')
     const [words, setWords] = useState([])
@@ -37,6 +38,7 @@ export const Text = ({text, currentLang, traslateLang}) => {
             <p key={word + Math.random()} className="paraphId" onMouseOver={e => showTraslation(e)}>{word}&nbsp;</p>
         )}
         </div>
+
         }
 
         <Box

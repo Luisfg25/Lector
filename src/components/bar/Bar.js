@@ -11,6 +11,7 @@ import Select from '@mui/material/Select';
 import PostAddIcon from '@mui/icons-material/PostAdd';
 import NightlightIcon from '@mui/icons-material/Nightlight';
 import LightModeIcon from '@mui/icons-material/LightMode';
+import { languages } from '../../data/languages'
 
 export const Bar = ({handleMode, mode, handleModal, handleCurrentLang, handleTraslateLang}) => {
 
@@ -49,10 +50,9 @@ export const Bar = ({handleMode, mode, handleModal, handleCurrentLang, handleTra
                 value={currLang}
                 onChange={handleCurrChange}
               >
-                <MenuItem value={'en'}>Eng</MenuItem>
-                <MenuItem value={'es'}>Esp</MenuItem>
-                <MenuItem value={'de'}>Deu</MenuItem>
-                <MenuItem value={'fr'}>Fre</MenuItem>
+                {languages.map(lang => 
+                  <MenuItem value={lang.useThis}>{lang.name}</MenuItem>
+                )}
               </Select>
             </FormControl>
           </Box>
@@ -66,10 +66,9 @@ export const Bar = ({handleMode, mode, handleModal, handleCurrentLang, handleTra
                 value={transLang}
                 onChange={handleTransChange}
               >
-                <MenuItem value={'en'}>Eng</MenuItem>
-                <MenuItem value={'es'}>Esp</MenuItem>
-                <MenuItem value={'de'}>Deu</MenuItem>
-                <MenuItem value={'fr'}>Fre</MenuItem>
+                {languages.map(lang => 
+                  <MenuItem value={lang.useThis}>{lang.name}</MenuItem>
+                )}
               </Select>
             </FormControl>
           </Box>
