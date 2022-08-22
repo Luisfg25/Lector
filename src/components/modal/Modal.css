@@ -1,0 +1,21 @@
+.modal {
+    border: none !important;
+    border-radius: 10px;
+    min-width: 70vw;
+    
+}
+
+#standard-multiline-static {
+    min-width: 70vw !important;
+}
+
+#button-close {
+    color:#c97f7f !important;
+
+}
+
+#button-upload {
+    color:#7fc992 !important;
+    float: right;
+}
+
