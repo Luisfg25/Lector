@@ -51,7 +51,7 @@ export const Bar = ({handleMode, mode, handleModal, handleCurrentLang, handleTra
                 onChange={handleCurrChange}
               >
                 {languages.map(lang => 
-                  <MenuItem value={lang.useThis}>{lang.name}</MenuItem>
+                  <MenuItem key={lang.alsKey} value={lang.useThis}>{lang.name}</MenuItem>
                 )}
               </Select>
             </FormControl>
@@ -67,7 +67,7 @@ export const Bar = ({handleMode, mode, handleModal, handleCurrentLang, handleTra
                 onChange={handleTransChange}
               >
                 {languages.map(lang => 
-                  <MenuItem value={lang.useThis}>{lang.name}</MenuItem>
+                  <MenuItem key={lang.alsKey} value={lang.useThis}>{lang.name}</MenuItem>
                 )}
               </Select>
             </FormControl>

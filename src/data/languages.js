@@ -1,7 +1,7 @@
 export const languages = [
     {
       "useThis": 'af',
-      "639-2": "afr",
+      "alsKey": "afr",
       "family": "Indo-European",
       "name": "Afrikaans",
       "nativeName": "Afrikaans",
@@ -9,7 +9,7 @@ export const languages = [
     },
     {
       "useThis": 'ar',
-      "639-2": "ara",
+      "alsKey": "ara",
       "family": "Afro-Asiatic",
       "name": "Arabic",
       "nativeName": "العربية",
@@ -17,7 +17,7 @@ export const languages = [
     },
     {
       "useThis": 'ay',
-      "639-2": "aym",
+      "alsKey": "aym",
       "family": "Aymaran",
       "name": "Aymara",
       "nativeName": "aymar aru",
@@ -25,7 +25,7 @@ export const languages = [
     },
     {
       "useThis": 'be',
-      "639-2": "bel",
+      "alsKey": "bel",
       "family": "Indo-European",
       "name": "Belarusian",
       "nativeName": "беларуская мова",
@@ -33,7 +33,7 @@ export const languages = [
     },
     {
       "useThis": 'bg',
-      "639-2": "bul",
+      "alsKey": "bul",
       "family": "Indo-European",
       "name": "Bulgarian",
       "nativeName": "български език",
@@ -41,8 +41,8 @@ export const languages = [
     },
     {
       "useThis": 'bo',
-      "639-2": "bod",
-      "639-2/B": "tib",
+      "alsKey": "bod",
+      "alsKey/B": "tib",
       "family": "Sino-Tibetan",
       "name": "Tibetan Standard, Tibetan, Central",
       "nativeName": "བོད་ཡིག",
@@ -50,7 +50,7 @@ export const languages = [
     },
     {
       "useThis": 'bs',
-      "639-2": "bos",
+      "alsKey": "bos",
       "family": "Indo-European",
       "name": "Bosnian",
       "nativeName": "bosanski jezik",
@@ -58,7 +58,7 @@ export const languages = [
     },
     {
       "useThis": 'ca',
-      "639-2": "cat",
+      "alsKey": "cat",
       "family": "Indo-European",
       "name": "Catalan",
       "nativeName": "català",
@@ -66,8 +66,8 @@ export const languages = [
     },
     {
       "useThis": 'cs',
-      "639-2": "ces",
-      "639-2/B": "cze",
+      "alsKey": "ces",
+      "alsKey/B": "cze",
       "family": "Indo-European",
       "name": "Czech",
       "nativeName": "čeština, český jazyk",
@@ -75,7 +75,7 @@ export const languages = [
     },
     {
       "useThis": 'da',
-      "639-2": "dan",
+      "alsKey": "dan",
       "family": "Indo-European",
       "name": "Danish",
       "nativeName": "dansk",
@@ -83,8 +83,8 @@ export const languages = [
     },
     {
       "useThis": 'de',
-      "639-2": "deu",
-      "639-2/B": "ger",
+      "alsKey": "deu",
+      "alsKey/B": "ger",
       "family": "Indo-European",
       "name": "German",
       "nativeName": "Deutsch",
@@ -92,8 +92,8 @@ export const languages = [
     },
     {
       "useThis": 'el',
-      "639-2": "ell",
-      "639-2/B": "gre",
+      "alsKey": "ell",
+      "alsKey/B": "gre",
       "family": "Indo-European",
       "name": "Greek (modern)",
       "nativeName": "ελληνικά",
@@ -101,7 +101,7 @@ export const languages = [
     },
     {
       "useThis": 'en',
-      "639-2": "eng",
+      "alsKey": "eng",
       "family": "Indo-European",
       "name": "English",
       "nativeName": "English",
@@ -109,7 +109,7 @@ export const languages = [
     },
     {
       "useThis": 'eo',
-      "639-2": "epo",
+      "alsKey": "epo",
       "family": "Constructed",
       "name": "Esperanto",
       "nativeName": "Esperanto",
@@ -117,7 +117,7 @@ export const languages = [
     },
     {
       "useThis": 'es',
-      "639-2": "spa",
+      "alsKey": "spa",
       "family": "Indo-European",
       "name": "Spanish",
       "nativeName": "Español",
@@ -125,7 +125,7 @@ export const languages = [
     },
     {
       "useThis": 'et',
-      "639-2": "est",
+      "alsKey": "est",
       "family": "Uralic",
       "name": "Estonian",
       "nativeName": "eesti, eesti keel",
@@ -133,8 +133,8 @@ export const languages = [
     },
     {
       "useThis": 'fa',
-      "639-2": "fas",
-      "639-2/B": "per",
+      "alsKey": "fas",
+      "alsKey/B": "per",
       "family": "Indo-European",
       "name": "Persian (Farsi)",
       "nativeName": "فارسی",
@@ -142,8 +142,8 @@ export const languages = [
     },
     {
       "useThis": 'fr',
-      "639-2": "fra",
-      "639-2/B": "fre",
+      "alsKey": "fra",
+      "alsKey/B": "fre",
       "family": "Indo-European",
       "name": "French",
       "nativeName": "français, langue française",
@@ -151,7 +151,7 @@ export const languages = [
     },
     {
       "useThis": 'ga',
-      "639-2": "gle",
+      "alsKey": "gle",
       "family": "Indo-European",
       "name": "Irish",
       "nativeName": "Gaeilge",
@@ -159,7 +159,7 @@ export const languages = [
     },
     {
       "useThis": 'gd',
-      "639-2": "gla",
+      "alsKey": "gla",
       "family": "Indo-European",
       "name": "Scottish Gaelic, Gaelic",
       "nativeName": "Gàidhlig",
@@ -167,7 +167,7 @@ export const languages = [
     },
     {
       "useThis": 'gn',
-      "639-2": "grn",
+      "alsKey": "grn",
       "family": "Tupian",
       "name": "Guaraní",
       "nativeName": "Avañe'ẽ",
@@ -175,7 +175,7 @@ export const languages = [
     },
     {
       "useThis": 'he',
-      "639-2": "heb",
+      "alsKey": "heb",
       "family": "Afro-Asiatic",
       "name": "Hebrew (modern)",
       "nativeName": "עברית",
@@ -183,7 +183,7 @@ export const languages = [
     },
     {
       "useThis": 'hr',
-      "639-2": "hrv",
+      "alsKey": "hrv",
       "family": "Indo-European",
       "name": "Croatian",
       "nativeName": "hrvatski jezik",
@@ -191,7 +191,7 @@ export const languages = [
     },
     {
       "useThis": 'hu',
-      "639-2": "hun",
+      "alsKey": "hun",
       "family": "Uralic",
       "name": "Hungarian",
       "nativeName": "magyar",
@@ -199,8 +199,8 @@ export const languages = [
     },
     {
       "useThis": 'hy',
-      "639-2": "hye",
-      "639-2/B": "arm",
+      "alsKey": "hye",
+      "alsKey/B": "arm",
       "family": "Indo-European",
       "name": "Armenian",
       "nativeName": "Հայերեն",
@@ -208,7 +208,7 @@ export const languages = [
     },
     {
       "useThis": 'id',
-      "639-2": "ind",
+      "alsKey": "ind",
       "family": "Austronesian",
       "name": "Indonesian",
       "nativeName": "Bahasa Indonesia",
@@ -216,7 +216,7 @@ export const languages = [
     },
     {
       "useThis": 'it',
-      "639-2": "ita",
+      "alsKey": "ita",
       "family": "Indo-European",
       "name": "Italian",
       "nativeName": "Italiano",
@@ -224,7 +224,7 @@ export const languages = [
     },
     {
       "useThis": 'ja',
-      "639-2": "jpn",
+      "alsKey": "jpn",
       "family": "Japonic",
       "name": "Japanese",
       "nativeName": "日本語 (にほんご)",
@@ -232,8 +232,8 @@ export const languages = [
     },
     {
       "useThis": 'ka',
-      "639-2": "kat",
-      "639-2/B": "geo",
+      "alsKey": "kat",
+      "alsKey/B": "geo",
       "family": "South Caucasian",
       "name": "Georgian",
       "nativeName": "ქართული",
@@ -241,7 +241,7 @@ export const languages = [
     },
     {
       "useThis": 'kk',
-      "639-2": "kaz",
+      "alsKey": "kaz",
       "family": "Turkic",
       "name": "Kazakh",
       "nativeName": "қазақ тілі",
@@ -249,7 +249,7 @@ export const languages = [
     },
     {
       "useThis": 'ko',
-      "639-2": "kor",
+      "alsKey": "kor",
       "family": "Koreanic",
       "name": "Korean",
       "nativeName": "한국어",
@@ -257,7 +257,7 @@ export const languages = [
     },
     {
       "useThis": 'la',
-      "639-2": "lat",
+      "alsKey": "lat",
       "family": "Indo-European",
       "name": "Latin",
       "nativeName": "latine, lingua latina",
@@ -265,7 +265,7 @@ export const languages = [
     },
     {
       "useThis": 'lb',
-      "639-2": "ltz",
+      "alsKey": "ltz",
       "family": "Indo-European",
       "name": "Luxembourgish, Letzeburgesch",
       "nativeName": "Lëtzebuergesch",
@@ -273,7 +273,7 @@ export const languages = [
     },
     {
       "useThis": 'lt',
-      "639-2": "lit",
+      "alsKey": "lit",
       "family": "Indo-European",
       "name": "Lithuanian",
       "nativeName": "lietuvių kalba",
@@ -281,8 +281,8 @@ export const languages = [
     },
     {
       "useThis": 'mi',
-      "639-2": "mri",
-      "639-2/B": "mao",
+      "alsKey": "mri",
+      "alsKey/B": "mao",
       "family": "Austronesian",
       "name": "Māori",
       "nativeName": "te reo Māori",
@@ -290,8 +290,8 @@ export const languages = [
     },
     {
       "useThis": 'mk',
-      "639-2": "mkd",
-      "639-2/B": "mac",
+      "alsKey": "mkd",
+      "alsKey/B": "mac",
       "family": "Indo-European",
       "name": "Macedonian",
       "nativeName": "македонски јазик",
@@ -299,7 +299,7 @@ export const languages = [
     },
     {
       "useThis": 'ml',
-      "639-2": "mal",
+      "alsKey": "mal",
       "family": "Dravidian",
       "name": "Malayalam",
       "nativeName": "മലയാളം",
@@ -307,7 +307,7 @@ export const languages = [
     },
     {
       "useThis": 'mn',
-      "639-2": "mon",
+      "alsKey": "mon",
       "family": "Mongolic",
       "name": "Mongolian",
       "nativeName": "Монгол хэл",
@@ -315,8 +315,8 @@ export const languages = [
     },
     {
       "useThis": 'ms',
-      "639-2": "msa",
-      "639-2/B": "may",
+      "alsKey": "msa",
+      "alsKey/B": "may",
       "family": "Austronesian",
       "name": "Malay",
       "nativeName": "bahasa Melayu, بهاس ملايو‎",
@@ -324,7 +324,7 @@ export const languages = [
     },
     {
       "useThis": 'mt',
-      "639-2": "mlt",
+      "alsKey": "mlt",
       "family": "Afro-Asiatic",
       "name": "Maltese",
       "nativeName": "Malti",
@@ -332,7 +332,7 @@ export const languages = [
     },
     {
       "useThis": 'ne',
-      "639-2": "nep",
+      "alsKey": "nep",
       "family": "Indo-European",
       "name": "Nepali",
       "nativeName": "नेपाली",
@@ -340,8 +340,8 @@ export const languages = [
     },
     {
       "useThis": 'nl',
-      "639-2": "nld",
-      "639-2/B": "dut",
+      "alsKey": "nld",
+      "alsKey/B": "dut",
       "family": "Indo-European",
       "name": "Dutch",
       "nativeName": "Nederlands, Vlaams",
@@ -349,7 +349,7 @@ export const languages = [
     },
     {
       "useThis": 'no',
-      "639-2": "nor",
+      "alsKey": "nor",
       "family": "Indo-European",
       "name": "Norwegian",
       "nativeName": "Norsk",
@@ -357,7 +357,7 @@ export const languages = [
     },
     {
       "useThis": 'nv',
-      "639-2": "nav",
+      "alsKey": "nav",
       "family": "Dené–Yeniseian",
       "name": "Navajo, Navaho",
       "nativeName": "Diné bizaad",
@@ -365,7 +365,7 @@ export const languages = [
     },
     {
       "useThis": 'pl',
-      "639-2": "pol",
+      "alsKey": "pol",
       "family": "Indo-European",
       "name": "Polish",
       "nativeName": "język polski, polszczyzna",
@@ -373,7 +373,7 @@ export const languages = [
     },
     {
       "useThis": 'pt',
-      "639-2": "por",
+      "alsKey": "por",
       "family": "Indo-European",
       "name": "Portuguese",
       "nativeName": "Português",
@@ -381,7 +381,7 @@ export const languages = [
     },
     {
       "useThis": 'qu',
-      "639-2": "que",
+      "alsKey": "que",
       "family": "Quechuan",
       "name": "Quechua",
       "nativeName": "Runa Simi, Kichwa",
@@ -389,7 +389,7 @@ export const languages = [
     },
     {
       "useThis": 'rm',
-      "639-2": "roh",
+      "alsKey": "roh",
       "family": "Indo-European",
       "name": "Romansh",
       "nativeName": "rumantsch grischun",
@@ -397,8 +397,8 @@ export const languages = [
     },
     {
       "useThis": 'ro',
-      "639-2": "ron",
-      "639-2/B": "rum",
+      "alsKey": "ron",
+      "alsKey/B": "rum",
       "family": "Indo-European",
       "name": "Romanian",
       "nativeName": "Română",
@@ -406,7 +406,7 @@ export const languages = [
     },
     {
       "useThis": 'ru',
-      "639-2": "rus",
+      "alsKey": "rus",
       "family": "Indo-European",
       "name": "Russian",
       "nativeName": "Русский",
@@ -414,8 +414,8 @@ export const languages = [
     },
     {
       "useThis": 'sk',
-      "639-2": "slk",
-      "639-2/B": "slo",
+      "alsKey": "slk",
+      "alsKey/B": "slo",
       "family": "Indo-European",
       "name": "Slovak",
       "nativeName": "slovenčina, slovenský jazyk",
@@ -423,7 +423,7 @@ export const languages = [
     },
     {
       "useThis": 'sl',
-      "639-2": "slv",
+      "alsKey": "slv",
       "family": "Indo-European",
       "name": "Slovene",
       "nativeName": "slovenski jezik, slovenščina",
@@ -431,7 +431,7 @@ export const languages = [
     },
     {
       "useThis": 'so',
-      "639-2": "som",
+      "alsKey": "som",
       "family": "Afro-Asiatic",
       "name": "Somali",
       "nativeName": "Soomaaliga, af Soomaali",
@@ -439,8 +439,8 @@ export const languages = [
     },
     {
       "useThis": 'sq',
-      "639-2": "sqi",
-      "639-2/B": "alb",
+      "alsKey": "sqi",
+      "alsKey/B": "alb",
       "family": "Indo-European",
       "name": "Albanian",
       "nativeName": "Shqip",
@@ -448,7 +448,7 @@ export const languages = [
     },
     {
       "useThis": 'su',
-      "639-2": "sun",
+      "alsKey": "sun",
       "family": "Austronesian",
       "name": "Sundanese",
       "nativeName": "Basa Sunda",
@@ -456,7 +456,7 @@ export const languages = [
     },
     {
       "useThis": 'sv',
-      "639-2": "swe",
+      "alsKey": "swe",
       "family": "Indo-European",
       "name": "Swedish",
       "nativeName": "svenska",
@@ -464,7 +464,7 @@ export const languages = [
     },
     {
       "useThis": 'tr',
-      "639-2": "tur",
+      "alsKey": "tur",
       "family": "Turkic",
       "name": "Turkish",
       "nativeName": "Türkçe",
@@ -472,7 +472,7 @@ export const languages = [
     },
     {
       "useThis": 'vi',
-      "639-2": "vie",
+      "alsKey": "vie",
       "family": "Austroasiatic",
       "name": "Vietnamese",
       "nativeName": "Tiếng Việt",
@@ -480,7 +480,7 @@ export const languages = [
     },
     {
       "useThis": 'yi',
-      "639-2": "yid",
+      "alsKey": "yid",
       "family": "Indo-European",
       "name": "Yiddish",
       "nativeName": "ייִדיש",
@@ -488,7 +488,7 @@ export const languages = [
     },
     {
       "useThis": 'yo',
-      "639-2": "yor",
+      "alsKey": "yor",
       "family": "Niger–Congo",
       "name": "Yoruba",
       "nativeName": "Yorùbá",
@@ -496,8 +496,8 @@ export const languages = [
     },
     {
       "useThis": 'zh',
-      "639-2": "zho",
-      "639-2/B": "chi",
+      "alsKey": "zho",
+      "alsKey/B": "chi",
       "family": "Sino-Tibetan",
       "name": "Chinese",
       "nativeName": "中文 (Zhōngwén), 汉语, 漢語",
